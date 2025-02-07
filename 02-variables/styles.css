@@ -1,0 +1,9 @@
+:root {
+    --color-principal: yellow;
+    --fuente: Arial, verdana;
+}
+
+h1 {
+    color: var(--color-principal);
+    font-family: var(--fuente);
+}
