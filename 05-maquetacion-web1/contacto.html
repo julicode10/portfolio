@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/scroll.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/loader.css" />
+
     <script src="assets/js/map.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
     <title>Portfolio - Julicode</title>
   </head>
   <body>
     <!--Layout principal-->
-    <div class="layout">
+    <section class="layout">
       <!--barra lateral (info usuario)-->
       <aside class="layout__aside">
         <section class="aside__user-info">
@@ -116,6 +119,11 @@
           </footer>
         </section>
       </aside>
+      <!--Menu responsive-->
+      <div class="layout__menu-toogle">
+        <i class="menu-toogle__icon fa-solid fa-bars"></i>
+        <i class="menu-toogle__icon fa-solid fa-xmark"></i>
+      </div>
       <!--Contenido principal-->
       <main class="layout__content">
         <section class="content__page content__contact">
@@ -200,15 +208,18 @@
                       ></textarea>
                       <label for="message" class="form__label">Mensaje</label>
                     </div>
-                    
                   </section>
                 </section>
-                <input type="submit" class="form__button" value="Enviar Mensaje"/>
+                <input
+                  type="submit"
+                  class="form__button"
+                  value="Enviar Mensaje"
+                />
               </form>
             </section>
-          </div>
+          </section>
         </section>
       </main>
-    </div>
+    </section>
   </body>
 </html>
